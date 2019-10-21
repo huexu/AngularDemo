@@ -1,0 +1,176 @@
+<!doctype html>
+<html ng-app="app">
+<head>        
+    <title>SnackBox</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />	
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="styles/style.css"/>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>        
+ 
+ 
+    <script src="../libs/angular.js"></script> 
+    <script src="../js/controllers.js"></script>
+    <script src="../js/app.js"></script>
+</head>
+ 
+<body ng-controller="ApplicationHomeCtrl">  
+ 
+<!--start of header-->
+<header>
+  <div class="container-fluid">
+    	<div class="row" >
+    		<div class="col-xs-4">
+				<a href="#" class="pull-left"><img src="images/logo1.png" class="img img-responsive"/></a>
+    		</div>
+            
+    		<div class="col-xs-2 col-xs-offset-4" >
+				<a href="Login.html" class="pull-right">
+				<img src="images/cart4.png" class="img img-responsive"/>				
+				</a>                              
+    		</div>
+		<div class="col-xs-2" >
+				<img src="images/call2.png" class="img img-responsive"/>
+    		</div>            
+                
+</div>
+</header>
+<!--end of header-->
+ 
+<!--start of page content-->
+<div class="view">
+<div class="bs-example">                    
+<div class="panel panel-primary" >
+        <div class="panel-heading">
+            <div class="panel-title">SnackBox Stores</div>
+ 
+        </div>     
+ 
+        <div style="padding-top:40px;" class="panel-body" >
+              
+                <div class="row" style="margin-bottom: 40px; "> 
+                    <div class="col-xs-4 border-right">
+                        <table width="100%">
+                            <tr>
+                                <th>Bangalore</th>
+                            </tr>
+                            <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-map-marker"></i></td>
+                                <td style="word-wrap: break-word">Shop# 56-57<br>27th Main, HSR Layout</td>
+                            </tr>
+                            <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-envelope"></i></td>
+                                <td >store.bangalore@snackbox.com</td>
+                            </tr>
+                            <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-earphone"></i></td>
+                                <td>080-44445555</td>
+                            </tr>
+                             <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-time"></i></td>
+                                <td>Timings: 11 A.M to 10 P.M </td>
+                            </tr>
+                        </table>
+                           
+                    </div>
+                    <div class="col-xs-4 border-right">
+                             <table>
+                            <tr>
+                                <th>Hyderabad</th>
+                            </tr>
+                            <tr style="font-size: 75%">
+                                <td ><i class="glyphicon glyphicon-map-marker"></i></td>
+                                <td>Plot# 26, Opposite Cyber Tower<br>Hi-Tech City Rd, Madhapur</td>
+                            </tr>
+                            <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-envelope"></i></td>
+                                <td>store.hyderabad@snackbox.com</td>
+                            </tr >
+                            <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-earphone"></i></td>
+                                <td>040-44445555</td>
+                            </tr>
+                             <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-time"></i></td>
+                                <td>Timings: 11 A.M to 10 P.M </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-xs-4">
+                            <table>
+                            <tr>
+                                <th>Mumbai</th>
+                            </tr>
+                            <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-map-marker"></i></td>
+                                <td>Chhatrapati Shivaji Int. Airport<br>Sahar</td>
+                            </tr>
+                            <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-envelope"></i></td>
+                                <td>store.mumbai@snackbox.com</td>
+                            </tr>
+                            <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-earphone"></i></td>
+                                <td>022-44445555</td>
+                            </tr>
+                             <tr style="font-size: 75%">
+                                <td><i class="glyphicon glyphicon-time"></i></td>
+                                <td>Timings: 11 A.M to 10 P.M </td>
+                            </tr>
+                        </table>
+                    </div>
+ 
+                    </div>
+                    </div>                                
+   
+ 
+ 
+ 
+            </div>                     
+        </div>  
+    </div>
+ <!--end of page content-->
+ 
+<!--start of footer-->
+ 
+<div class="container" style="height:5px; width:100%; font-size: 80%">
+  <div class="row ">
+    <div class="col-xs-7 text-center">
+		<div class="row">
+                    <div class="col-xs-2"><br><img ng-src="images/delivery.jpg"/></div>
+			<div class="col-xs-10">
+                            <p style="text-align: left; vertical-align: middle"> <br>
+                                    Order your favorite snacks online. We will ensure you get the same at your door step within 30 min. 
+					
+				</p>
+			</div>
+		</div>
+				
+	</div>
+    <div class="col-xs-5 text-center">
+		<div class="row">
+                    <div class="col-xs-8 col-xs-offset-4 pull-right"><br>
+					<a href="Mission.html">Mission</a> | 
+				
+					<a href="Disclaimer.html">Disclaimer</a> | 
+				
+					<a href="Contact.html">Contact Us</a> 
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-xs-8 col-xs-offset-4 pull-right">
+			<p style="text-align: center;">Visit Our WebSite - <a href="ApplicationHome.html">Snack Box</a></p>
+			</div>
+		</div>
+	
+  </div>
+</div>
+</div>	
+ 
+ 
+<!--end of footer-->   
+        

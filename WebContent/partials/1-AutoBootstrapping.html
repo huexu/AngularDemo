@@ -1,0 +1,22 @@
+<html ng-app>  
+<head>   
+   <script src="../libs/angular.min.js"></script>
+   <link rel="stylesheet" href="../styles/style.css'/>" />
+</head>
+<body>   
+    <h2 id="heading">{{"My "+"First "+"Angular "+"Web Page"}}</h2>
+    <table>    
+        <tr>
+                <td>
+                         <label for="username">Hello:</label>      
+                </td>
+                <td>
+                         <input type="text" name="username" ng-model="username" />
+                </td>
+                <td>
+                         <span id="result"> Hello <b>{{ username }}</b> </span>
+                </td>
+      </tr>     
+   </table>
+</body>
+</html>
